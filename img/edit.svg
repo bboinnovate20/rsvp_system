@@ -1,0 +1,43 @@
+<svg id="Group_16" data-name="Group 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35.916" height="35.939" viewBox="0 0 35.916 35.939">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_8" data-name="Path 8" d="M-21.591-2.06V-36H12.884v17.059h-3.3L-3.461-4.293-4.711-2.06Z" transform="translate(21.591 36)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_15" data-name="Group 15" transform="translate(0)">
+    <g id="Group_14" data-name="Group 14" transform="translate(0 0)">
+      <g id="Mask_Group_4" data-name="Mask Group 4" clip-path="url(#clip-path)">
+        <g id="Group_13" data-name="Group 13" transform="translate(1.429 0.804)">
+          <path id="Path_5" data-name="Path 5" d="M4.674,0h22.44a4.868,4.868,0,0,1,4.674,5.041V32.516H0V5.041A4.868,4.868,0,0,1,4.674,0Z" fill="#461e8b"/>
+          <path id="Rectangle_17" data-name="Rectangle 17" d="M1.663,0H25.95a1.663,1.663,0,0,1,1.663,1.663V26.782H0V1.663A1.663,1.663,0,0,1,1.663,0Z" transform="translate(2.12 3.682)" fill="#fff"/>
+          <g id="Group_5" data-name="Group 5" transform="translate(4.781 8.839)">
+            <rect id="Rectangle_18" data-name="Rectangle 18" width="3.826" height="2.662" transform="translate(0 0)" fill="#461e8b"/>
+            <rect id="Rectangle_19" data-name="Rectangle 19" width="17.466" height="2.662" transform="translate(5.656 0)" fill="#461e8b"/>
+          </g>
+          <g id="Group_11" data-name="Group 11" transform="translate(4.781 14.494)">
+            <rect id="Rectangle_18-2" data-name="Rectangle 18" width="3.826" height="2.662" transform="translate(0 0)" fill="#461e8b"/>
+            <rect id="Rectangle_19-2" data-name="Rectangle 19" width="17.466" height="2.662" transform="translate(5.656 0)" fill="#461e8b"/>
+          </g>
+          <g id="Group_12" data-name="Group 12" transform="translate(4.781 20.15)">
+            <rect id="Rectangle_18-3" data-name="Rectangle 18" width="3.826" height="2.662" transform="translate(0 0)" fill="#461e8b"/>
+            <rect id="Rectangle_19-3" data-name="Rectangle 19" width="17.466" height="2.662" transform="translate(5.656 0)" fill="#461e8b"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_9" data-name="Group 9" transform="matrix(0.695, -0.719, 0.719, 0.695, 17.631, 33.338)">
+        <g id="Rectangle_20" data-name="Rectangle 20" transform="translate(2.256 0)">
+          <path id="Path_5-2" data-name="Path 5" d="M.333,0H15.975V3.772H.333A.333.333,0,0,1,0,3.439V.333A.333.333,0,0,1,.333,0Z" transform="translate(0 0)" fill="#461e8b"/>
+          <path id="Path_6" data-name="Path 6" d="M.25,0H15.726a.083.083,0,0,1,.083.083V3.523a.083.083,0,0,1-.083.083H.25A.25.25,0,0,1,0,3.356V.25A.25.25,0,0,1,.25,0Z" transform="translate(0.083 0.083)" fill="none" stroke="#461e8b" stroke-width="1"/>
+        </g>
+        <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(18.675 0)">
+          <path id="Path_7" data-name="Path 7" d="M0,0H2.053a.832.832,0,0,1,.832.832V2.94a.832.832,0,0,1-.832.832H0Z" fill="#461e8b"/>
+          <path id="Path_8-2" data-name="Path 8" d="M.083,0H1.97a.749.749,0,0,1,.749.749V2.857a.749.749,0,0,1-.749.749H.083A.083.083,0,0,1,0,3.523V.083A.083.083,0,0,1,.083,0Z" transform="translate(0.083 0.083)" fill="none" stroke="#461e8b" stroke-width="1"/>
+        </g>
+        <g id="Path_6-2" data-name="Path 6" transform="translate(0 3.742) rotate(-90)">
+          <path id="Path_9" data-name="Path 9" d="M1.639,3.438,0,2.249,1.639,0,3.277,2.249Z" transform="translate(0.233 0.282)" fill="#fff"/>
+          <path id="Path_10" data-name="Path 10" d="M1.871.565.465,2.495l1.406,1.02,1.406-1.02L1.871.565m0-.565L3.742,2.568,1.871,3.926,0,2.568Z" transform="translate(0)" fill="#461e8b"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

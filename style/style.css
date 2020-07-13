@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    font-family: Jost;
+}
+
+html {
+    background-color: #f3ecff;
+}
+
+header {
+    display: block;
+    margin-bottom: 10rem;
+}
+
+.main-name {
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding: 50px 0;
+    letter-spacing: 6px;
+}
+
+.main-header {
+    background-image: linear-gradient(260deg, rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.411)), url('/img/header_img.jpg');
+    padding: 0;
+    height: 190px;
+    background-size: cover;
+    background-position-y: -80%;
+    border-radius: 0 0 25px 25px;
+}
+
+.search-form {
+    text-align: center;
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.inner-form button {
+    border: none;
+    padding: .5rem 20px;
+    outline: none;
+}
+
+.inner-form {
+    position: relative;
+    height: 500px;
+}
+
+.inner-form input {
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid rgb(14, 14, 88);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    transition: all .3s ease;
+    height: 40px;
+}
+
+#add-form {
+    width: 80%;
+}
+
+.search-bar {
+    position: absolute;
+    background-color: rgb(1, 1, 66);
+    padding: 1px 30px;
+    right: 0;
+    top: -21px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 0 18px 18px 0;
+    cursor: pointer;
+}
+
+.search-form input:hover {
+    box-shadow: 1px 1px 15px rgb(199, 169, 255);
+    border-color: rgba(1, 1, 36, 0.473);
+}
+
+.input-search {
+    width: 0;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.search-bar-2 {
+    border-radius: 15px;
+    font-size: 0px;
+}
+
+.search-form-2 {
+    margin-top: 30px;
+}
+
+.search-icon {
+    width: 27px;
+    /* height: 80px; */
+    fill: white;
+    padding: 10px 0;
+}
+
+#last-name {
+    text-transform: uppercase;
+}
+
+.main-body {
+    margin-top: 150px;
+}
+
+.invitees-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+}
+
+.invitees h2,
+.invitees h4 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.invitees h2 {
+    font-size: 2.2rem;
+}
+
+.invitees h4 {
+    color: rgb(53, 53, 53);
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+}
+
+.invitees {
+    flex: 0 0 350px;
+    margin: 20px 0;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    animation: animate-invitee .20s ease;
+}
+
+@keyframes animate-invitee {
+    0% {
+        transform: translateX(-80px);
+        opacity: 0;
+    }
+    40% {
+        transform: translateX(-40px);
+        opacity: .6;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.edit-delete {
+    background-color: #5c2caf;
+    padding: 40px 20px;
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.delete-data {
+    display: block;
+}
+
+.invitee-name {
+    padding: 20px 15px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 1.8rem;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.edit-delete img {
+    width: 35px;
+    height: 35px;
+    fill: #33126b;
+    background-color: white;
+    border-radius: 40%;
+    padding: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.div-status {
+    background-color: rgb(116, 0, 110);
+    width: 1000px;
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: -120px;
+    left: 65%;
+    border-radius: 20px;
+    /* height: 100%; */
+    transform: rotate(20deg);
+}
+
+.status-content {
+    position: absolute;
+    left: 65%;
+    top: 25%;
+    color: white;
+    font-weight: 100;
+}
+
+.status-content h1 {
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.mark-icon {
+    width: 60%;
+    padding-left: 20px;
+}
+
+.invite-decide {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.background-invite {
+    background-color: rgba(161, 2, 153, 0.733);
+}
+
+.background-invite-2 {
+    background-color: red;
+}
+
+.invite-decide h2 {
+    font-size: 1.5rem;
+    padding: 5px 15px;
+    color: white;
+}
+
+.index {
+    display: none;
+}
+
+.edit-button {
+    font-size: 2rem;
+    width: 180px;
+    margin-left: -10px;
+    padding: 20px 5px;
+}
+
+.display {
+    display: none;
+}
+
+.unblock-search-input {
+    width: 60%;
+    border-radius: 100px !important;
+    opacity: 1;
+}
+
+.display-element {
+    opacity: 1 !important;
+    animation: animate .5s ease;
+    transform: translate(30px, -8px);
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translate(20px, -30px);
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        transform: translate(30px, -8px);
+    }
+}
+
+.search-form-2 input {
+    right: 40px;
+    padding: 10px 70px 10px 25px;
+}
+
+.close-button {
+    font-size: 3rem;
+    position: absolute;
+    color: #ff0000;
+    opacity: 0;
+}
+
+.track-invitees {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.invitees-count {
+    display: none;
+    padding-top: 1rem;
+}
+
+
+/* add class js-file*/
+
+.change-search-icon {
+    padding: 5 10px;
+    border-radius: 100%;
+    border-radius: 100%;
+    transform: scale(.8);
+}
+
+.main-footer {
+    background-color: rgb(0, 0, 63);
+    display: block;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    margin-top: calc(100vh - 33rem);
+}
+
+@media(max-width: 420px) {
+    .main-name {
+        font-size: 2rem;
+    }
+    .invitees {
+        flex: 0 0 300px;
+    }
+    .status-content {
+        left: 60%;
+    }
+    .mark-icon {
+        width: 50%;
+        padding-left: 2.5rem;
+    }
+    .unblock-search-input {
+        width: 40%;
+    }
+}
+
+#first-name {
+    text-transform: capitalize;
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(102, 48, 250);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(34, 0, 156);
+    border-radius: 10rem;
+}
